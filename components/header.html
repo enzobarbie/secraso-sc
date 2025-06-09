@@ -1,0 +1,69 @@
+<header class="main-header">
+    <nav class="navbar">
+        <!-- Logo/Brand -->
+        <div class="nav-brand">
+            <a href="/" class="brand-link">
+                <img src="assets/images/logo.png" alt="Secraso-SC Logo" class="brand-logo">
+                <span class="brand-text">Secraso-SC</span>
+            </a>
+        </div>
+        
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Abrir menu" aria-expanded="false">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
+        
+        <!-- Navigation Menu -->
+        <ul class="nav-menu" id="navMenu">
+            <li class="nav-item">
+                <a href="/" class="nav-link" data-page="home">
+                    <span class="nav-text">Início</span>
+                </a>
+            </li>
+            
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                    <span class="nav-text">Sindicato</span>
+                    <span class="dropdown-arrow">▼</span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                    <li role="none">
+                        <a href="pages/sindicato/apresentacao.html" class="dropdown-link" role="menuitem">
+                            <span class="dropdown-icon">📋</span>
+                            <span class="dropdown-text">Apresentação</span>
+                        </a>
+                    </li>
+                    <li role="none">
+                        <a href="pages/sindicato/diretoria.html" class="dropdown-link" role="menuitem">
+                            <span class="dropdown-icon">👥</span>
+                            <span class="dropdown-text">Diretoria</span>
+                        </a>
+                    </li>
+                    <li role="none">
+                        <a href="pages/sindicato/palavra-presidente.html" class="dropdown-link" role="menuitem">
+                            <span class="dropdown-icon">💬</span>
+                            <span class="dropdown-text">Palavra do Presidente</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            
+            <li class="nav-item">
+                <a href="pages/convencoes.html" class="nav-link" data-page="convencoes">
+                    <span class="nav-text">Convenções</span>
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                <a href="pages/contato.html" class="nav-link" data-page="contato">
+                    <span class="nav-text">Contato</span>
+                </a>
+            </li>
+        </ul>
+        
+        <!-- Overlay para mobile -->
+        <div class="nav-overlay" id="navOverlay"></div>
+    </nav>
+</header>
